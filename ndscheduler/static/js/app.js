@@ -1,6 +1,6 @@
 require.config({
   urlArgs: 'bust=' + cacheBuster,
-  baseUrl: '/static/js',
+  baseUrl: '/scheduler/static/js',
   paths: {
     'jquery': 'vendor/jquery',
     'backbone': 'vendor/backbone',

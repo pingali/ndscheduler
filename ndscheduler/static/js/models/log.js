@@ -86,7 +86,7 @@ define(['config',
       if (event === 'custom_run') {
         // TODO (wenbin): Make a beautiful popup window to display this info,
         // instead of linking to raw json.
-        descHtml = 'Execution ID: <a href="/#executions/' +
+        descHtml = 'Execution ID: <a href="#executions/' +
             desc + '">' + desc + '</a>';
       } else if (event === 'modified') {
         descHtml = 'diff: old val => new val <br>' + desc;

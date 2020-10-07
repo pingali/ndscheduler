@@ -7,7 +7,7 @@ define([], function() {
 
   'use strict';
 
-  var urlPrefix = '/api/v1';
+  var urlPrefix = '/scheduler/api/v1';
 
   return {
     'jobs_url': urlPrefix + '/jobs',
