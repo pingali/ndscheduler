@@ -45,12 +45,12 @@ define(['config',
       var jobLink = '';
       try {
         var jobId = this.get('job')['job_id'];
-        jobLink = '<a href="/#jobs/' + jobId + '">' + jobName + '</a>';
+        jobLink = '<a href="#jobs/' + jobId + '">' + jobName + '</a>';
       } catch (e) {
         jobLink = jobName;
       }
 
-      return '<a href="/#executions/' + executionId +
+      return '<a href="#executions/' + executionId +
           '"><i class="fa fa-link fa-lg"></i></a> ' + jobLink;
     },
 

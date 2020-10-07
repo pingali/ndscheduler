@@ -37,7 +37,7 @@ define(['config',
     getJobNameHTMLString: function() {
       var jobName = this.get('job_name'),
           jobId = this.get('job_id');
-      return '<a href="/#jobs/' + jobId + '">' + jobName + '</a>';
+      return '<a href="#jobs/' + jobId + '">' + jobName + '</a>';
     },
 
     /**
