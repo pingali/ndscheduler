@@ -1,5 +1,6 @@
 """Base class to represent datastore."""
 
+import logging
 import dateutil.tz
 import dateutil.parser
 from apscheduler.jobstores import sqlalchemy as sched_sqlalchemy
