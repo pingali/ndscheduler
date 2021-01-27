@@ -10,6 +10,10 @@ DEBUG = True
 HTTP_PORT = 8888
 HTTP_ADDRESS = '0.0.0.0'
 
+# apscheduler settings
+THREAD_POOL_SIZE = 9
+JOB_MAX_INSTANCES = 7
+
 #
 # Set logging level
 #
